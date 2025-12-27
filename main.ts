@@ -1,7 +1,10 @@
-import { Plugin, MarkdownView, Editor } from "obsidian";
+import { Plugin, MarkdownView, Editor, Notice } from "obsidian";
 
 export default class ReverseComplementPlugin extends Plugin {
   async onload() {
+	this.addRibbonIcon('dice', 'Greet', () => {
+	  new Notice('Reverse Complement!');
+	});
     this.registerEvent(
       this.app.workspace.on("editor-menu", (menu, editor: Editor, view) => {
         const selectedText = editor.getSelection();
