@@ -3,7 +3,7 @@
 	"name": "Reverse Complement",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Adds a right-click menu to convert selected DNA to its reverse complement.",
+	"description": "Right-click menu to convert selected DNA to its reverse complement.",
     "author": "Björn Johansson",
     "authorUrl": "https://github.com/BjornFJohansson",
 	"isDesktopOnly": false
