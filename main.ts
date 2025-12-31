@@ -1,16 +1,13 @@
-import { Plugin, MarkdownView, Editor, Notice } from "obsidian";
+import { Plugin, Editor, Notice } from "obsidian";
 
 export default class ReverseComplementPlugin extends Plugin {
-  async onload() {
-	this.addRibbonIcon('dice', 'Greet', () => {
-	  new Notice('Reverse Complement!');
-	});
+  onload() {
     this.registerEvent(
       this.app.workspace.on("editor-menu", (menu, editor: Editor, view) => {
         const selectedText = editor.getSelection();
         if (selectedText && selectedText.trim().length > 0) {
           menu.addItem((item) => {
-            item.setTitle("Reverse Complement")
+            item.setTitle("Reverse complement")
               .setIcon("rotate-ccw")
               .onClick(() => {
                 const transformed = reverseComplement(selectedText);
