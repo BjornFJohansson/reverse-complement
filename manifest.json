@@ -1,7 +1,7 @@
 {
 	"id": "reverse-complement",
 	"name": "Reverse Complement",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Right-click menu to convert selected DNA to its reverse complement.",
     "author": "Björn Johansson",
