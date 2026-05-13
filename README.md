@@ -1,6 +1,6 @@
 # Obsidian Reverse Complement Plugin
 
-This is a plugin that adds a reverse complement function to obsidian.
+This is a plugin that adds a reverse complement function to obsidian. Look [here](https://community.obsidian.md/plugins/reverse-complement) for installation.
 
 ![](images/rc0.png)
 
